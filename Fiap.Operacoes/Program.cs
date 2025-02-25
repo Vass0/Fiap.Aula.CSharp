@@ -39,6 +39,17 @@ namespace Fiap.Operacoes
             Console.WriteLine($"O primeiro é maior? { num1 > num2}");
             Console.WriteLine($"O primeiro é maior? {num1 < num2}");
 
+            Console.WriteLine("\n Verificação Lógica:");
+
+            bool ambosPositivo = num1 > 0 && num2 > 0;
+            bool NegativoPositivo = num1 < 0 || num2 < 0;
+            bool nenhumPositivo = !(num1 < 0 || num2 < 0);
+
+            Console.WriteLine($"Ambos positivos {ambosPositivo}");
+            Console.WriteLine($"Ao menos um positivo {NegativoPositivo}");
+            Console.WriteLine($"Nanhum número Positivo {nenhumPositivo}");
+
+            Console.WriteLine("\nDigite qualquer coisa para sair.");
             Console.ReadKey();
 
         }
