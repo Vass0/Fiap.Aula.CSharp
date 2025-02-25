@@ -40,6 +40,7 @@ namespace Fiap.Operacoes
             Console.WriteLine($"O primeiro é maior? {num1 < num2}");
 
             Console.ReadKey();
+
         }
     }
 }
