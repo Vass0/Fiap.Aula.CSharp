@@ -32,7 +32,15 @@ namespace Fiap.Operacoes
             Console.WriteLine($"Multi: {mult}");
             Console.WriteLine($"Módulo: {modulo}");
 
+            //Operações Relacionais
+            Console.WriteLine("\n Comparação entre os números");
+            Console.WriteLine($"Os números são iguais? {num1 == num2}");
+            Console.WriteLine($"Os números são diferentes? {num1 != num2}");
+            Console.WriteLine($"O primeiro é maior? { num1 > num2}");
+            Console.WriteLine($"O primeiro é maior? {num1 < num2}");
+
             Console.ReadKey();
+
         }
     }
 }
